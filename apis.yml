@@ -1,20 +1,76 @@
 aid: solvo-ai
-name: Solvo Ai
-description: Solvo Ai is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Solvo.ai
+description: >-
+  Solvo.ai is a revenue-orchestration company building the decision layer for
+  revenue management in container logistics. Its live pricing engine ingests
+  market rates, capacity manifests, booking history, port congestion, customer
+  behaviour and contract terms, then uses models trained on tens of millions of
+  historical bookings to produce a ranked, capacity-aware rate recommendation
+  per lane, equipment type and segment. Trade managers accept, adjust or
+  override these recommendations on Solvo's Decision HUB, and every decision
+  feeds back as training signal through a bidirectional integration with the
+  carrier's commercial stack. Founded in 2021 and backed by Speedinvest, Solvo
+  positions itself as the only proven, live pricing engine built specifically
+  for container shipping, with one of the world's top carriers in production.
+  This profile was added to the API Evangelist network as a Speedinvest
+  portfolio company; Solvo currently publishes a marketing and insights site
+  only, with no public API, developer documentation, SDKs or specifications.
 url: https://raw.githubusercontent.com/api-evangelist/solvo-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.solvo.ai/solvo-webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Container Shipping
+- Revenue Management
+- Dynamic Pricing
+- Freight
+- Artificial Intelligence
+- Supply Chain
 apis: []
+common:
+- type: TrustCenter
+  url: security/solvo-ai-trust-center.yml
+- type: Compliance
+  url: https://www.solvo.ai/trust
+- type: DomainSecurity
+  url: security/solvo-ai-domain-security.yml
+- type: Website
+  url: https://www.solvo.ai/
+- type: Blog
+  url: https://www.solvo.ai/insights.html
+- type: About
+  url: https://www.solvo.ai/about.html
+- type: Careers
+  url: https://www.solvo.ai/careers.html
+- type: TermsOfService
+  url: https://www.solvo.ai/terms.html
+- type: PrivacyPolicy
+  url: https://www.solvo.ai/privacy.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
