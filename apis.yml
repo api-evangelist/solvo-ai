@@ -16,6 +16,17 @@ description: >-
   portfolio company; Solvo currently publishes a marketing and insights site
   only, with no public API, developer documentation, SDKs or specifications.
 url: https://raw.githubusercontent.com/api-evangelist/solvo-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
