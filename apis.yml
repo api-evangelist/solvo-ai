@@ -64,6 +64,10 @@ tags:
 - Supply Chain
 apis: []
 common:
+- type: Pricing
+  url: https://www.solvo.ai/pricing
+- type: Plans
+  url: plans/solvo-ai-plans-pricing.yml
 - type: TrustCenter
   url: security/solvo-ai-trust-center.yml
 - type: Compliance
