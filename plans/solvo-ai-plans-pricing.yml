@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.solvo.ai/pricing
+sources:
+- https://www.solvo.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: In your own cloud instance. We deploy into your dedicated cloud instance, and no data leaves
+    it without a signed DPA.
+  managed_tier: Deploy
+published: false
+note: Engagement tiers listed with no numeric prices; dollar figures on page are sample freight rates
+  in a demo workspace, not product pricing. Deployed into customer's own cloud instance but sold as a
+  vendor engagement.
+plan_count: 3
+plans:
+- name: Pilot
+  price_text: Fixed-fee 8-week engagement
+  period: one-time
+  included_quota: 1 trade lane group; Up to 5 trade managers; Recommendation engine + rationale; Weekly
+    impact readout; Dedicated solutions engineer
+- name: Deploy
+  price_text: Usage-based
+  period: none
+  unit: TEUs shipped / service
+  included_quota: Unlimited lanes & users; Bidirectional CRM / TMS sync; Confidence governance & guardrails;
+    Allocation review automation; SSO, audit log, ISO 27001
+- name: Orchestrate
+  price_text: Custom enterprise agreement
+  period: none
+  included_quota: Everything in Deploy; Cargo mix driven optimisation; Custom model objectives and features;
+    Priority model tuning; Quarterly business reviews
+rate_limit_statements:
+- We onboard one carrier per quarter.
